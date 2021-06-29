@@ -203,4 +203,108 @@ body {
 .page-02__img {
   margin: 50px 0 60px 0;
 }
+
+.page-03 {
+  background-color: #E6E3C4;
+  color: #282828;
+  padding-top: 86px;
+  padding-bottom: 74px;
+}
+
+.page-03-box {
+  border-top: 1px solid #998431;
+  border-bottom: 1px solid #998431;
+  padding: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-03-info {
+  max-width: 435px;
+}
+
+.page-03-info__suptitle {
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 45px;
+}
+
+.page-03-info__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 36px;
+  max-width: 298px;
+  line-height: 54px;
+}
+
+.page-03-info__title::after {
+  content: '';
+  display: block;
+  margin-top: 30px;
+  height: 1px;
+  width: 160px;
+  background-color: #282828;
+}
+
+.page-03-info__text {
+  margin: 30px 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.page-03-info__btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #998431;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.page-03-info-table {
+  border-collapse: collapse;
+}
+
+.page-03-info-table td {
+  padding: 18px 20px;
+}
+
+.page-03-info-table tr:nth-child(2) td {
+  border-top: 1px solid #282828;
+  border-bottom: 1px solid #282828;
+}
+
+.page-03-info-table-col-1 {
+  border-right: 1px solid #282828;
+  font-size: 14px;
+}
+
+.page-03-info-table-wine-name {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.page-03-gallery {
+  max-width: 540px;
+}
+
+.page-03-gallery-row-1 {
+  margin-bottom: 30px;
+}
+
+.page-03-gallery-row-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=style.css.map */

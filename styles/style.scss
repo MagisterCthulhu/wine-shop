@@ -108,3 +108,85 @@ body {
         margin: 50px 0 60px 0;
     }
 }
+
+// Page-03
+.page-03 {
+    background-color: $light;
+    color: $dark;
+    padding-top: 86px;
+    padding-bottom: 74px;
+    &-box {
+        border-top: 1px solid $accent;
+        border-bottom: 1px solid $accent;
+        padding: 60px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-info {
+        max-width: 435px;
+        &__suptitle {
+            color: $black;
+            font-size: 16px;
+            margin-bottom: 45px;
+        }
+        &__title {
+            font-family: $PlayfairDisplay;
+            font-weight: 700;
+            font-size: 36px;
+            max-width: 298px;
+            line-height: 54px;
+            &::after {
+                content: '';
+                display: block;
+                margin-top: 30px;
+                height: 1px;
+                width: 160px;
+                background-color: $dark;
+            }
+        }
+        &__text {
+            margin: 30px 0;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &__btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: $accent;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        &-table {
+            border-collapse: collapse;
+            td {
+                padding: 18px 20px;
+            }
+            tr:nth-child(2) td{
+                border-top: 1px solid $dark;
+                border-bottom: 1px solid $dark;
+            }
+            &-col-1 {
+                border-right: 1px solid $dark;
+                font-size: 14px;
+            }
+            &-wine-name {
+                font-family: $PlayfairDisplay;
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &-gallery {
+        max-width: 540px;
+        &-row-1 {
+            margin-bottom: 30px;
+        }
+        &-row-2 {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
