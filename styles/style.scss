@@ -190,3 +190,88 @@ body {
         }
     }
 }
+.page-04 {
+    background-color: $dark;
+    padding-top: 129px;
+    padding-bottom: 100px;
+    text-align: center;
+    &-box {
+        padding-top: 65px;
+        padding-bottom: 80px;
+        border: 3px solid $border;
+        position: relative;
+        &__title {
+            position: absolute;
+            top: -32px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: $PlayfairDisplay;
+            font-weight: 700;
+            font-size: 36px;
+            background-color: $dark;
+            padding: 10px 50px;
+        }
+        &__inner {
+            max-width: 540px;
+            margin: 0 auto;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 24px;
+            &::before {
+                content: '';
+                display: block;
+                width: 118px;
+                height: 1px;
+                background-color: $white;
+                margin: 0 auto 40px;
+            }
+        }
+        &__img-1 {
+            position: absolute;
+            z-index: 10;
+            top: -72px;
+            left: -30px;
+        }
+        &__img-2 {
+            position: absolute;
+            z-index: 10;
+            top: -70px;
+            right: -53px;
+        }
+    }
+}
+
+// Form
+.form {
+    margin-top: 81px;
+    &-row {
+        display: flex;
+        justify-content: space-between;
+        .form-input {
+            width: 255px;
+        }
+    }
+    &-input {
+        color: $white;
+        background-color: $dark;
+        border-bottom: 1px solid $white;
+        padding-bottom: 10px;
+        &::placeholder {
+            color: $white;
+        }
+        &-big {
+            margin-top: 40px;
+            width: 100%;
+        }
+    }
+    &-btn {
+        margin-top: 50px;
+        padding: 15px 0;
+        width: 100%;
+        color: $white;
+        text-transform: uppercase;
+        background-color: $dark;
+        border: 1px solid $white;
+    }
+}
