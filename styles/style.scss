@@ -28,7 +28,6 @@ body {
         padding-bottom: 20px;
     }
     .nav {
-        list-style: none;
         display: flex;
         &__item {
             flex: 0 0 25%;
@@ -273,5 +272,64 @@ body {
         text-transform: uppercase;
         background-color: $dark;
         border: 1px solid $white;
+    }
+}
+
+// Footer
+.footer {
+    padding: 50px 0;
+    background-color: $accent;
+    font-size: 14px;
+    &-row-1 {
+        height: 60px;
+        border-top: 1px solid $white;
+        border-bottom: 1px solid $white;
+        padding: 0 95px;
+        nav {
+            height: 100%;
+        }
+    }
+    &-row-2 {
+        height: 60px;
+        border-bottom: 1px solid $white;
+        padding: 0 95px;
+    }
+    &-nav {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            color: $white;
+        }
+    }
+    &-info {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        text-transform: uppercase;
+        height: 100%;
+        &__item {
+            padding: 0 57px;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            border-right: 1px solid $white;
+            &:first-child {
+                padding-left: 0;
+            }
+            &:last-child {
+                padding-right: 0;
+                border-right: none;
+            }
+        }
+        &-social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__item:nth-child(2) {
+                margin: 0 35px;
+            }
+        }
     }
 }
